@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check length</title>
+    <style>
+      label,
+      input {
+        display: block;
+        width: 25%;
+        margin-bottom: 10px;
+      }
+      body {
+        margin: 20px;
+        background-color:orange;
+      }
+      button {
+        display: block;
+        padding: 8px;
+      }
+    </style>
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <h1>Check the Length!</h1>
+    <p>
+      <i>Enter a word in the input box and click the "check" button!</i>
+      <br />
+      <i>Then check the message in the console!!</i>
+    </p>
+    <form>
+      <label>Enter a Word: </label>
+      <input id="word" type="text" />
+      <button type="button" onclick="check()">Check length</button>
+    </form>
+  </body>
+</html>
